@@ -9,11 +9,8 @@ function resolve(dir) {
 module.exports = {
     // baseUrl从 Vue CLI 3.3 起已弃用，请使用publicPath。
     // baseUrl:'./',
-    // 配置sub-path后访问路径为https://xxx-path/sub-path/#/
     // 公共路径
-    publicPath: "./",
-    // 不同的环境打不同包名
-    outputDir: process.env.NODE_ENV === "development" ? "devdist" : "dist",
+    publicPath: './',
     // 使用运行时编译器的 Vue 构建版本
     runtimeCompiler: true,
     // 开启生产环境SourceMap，设为false打包时不生成.map文件
